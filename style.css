@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  background-color: #232323; /* very dark grey */
+  background-color: #000000;
   font-weight: 500;
   font-style: normal;
   color: #e0e0e0; /* light grey text */
@@ -45,4 +45,11 @@ p {
 .links a:hover, .socials a:hover {
   color: #ffffff; 
   font-style: bold;
+}
+
+/* Mobiles */
+@media (max-width: 600px) {
+h1 {
+  font-size: 26px;
+}
 }
