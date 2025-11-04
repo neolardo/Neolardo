@@ -7,10 +7,14 @@ body {
   font-style: normal;
   color: #e0e0e0; /* light grey text */
   text-align: center;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
 }
 
 .container {
-  padding: 10vh;
+  padding: 10vh 2vh;
   margin: auto;
 }
 
